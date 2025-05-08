@@ -1,0 +1,1 @@
+export type {DockerSystemInfoResponse } from './docker.info'

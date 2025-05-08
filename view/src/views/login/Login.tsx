@@ -7,10 +7,10 @@ import {LockOutlined, UserOutlined} from "@ant-design/icons";
 export const Login = () => {
     useEffect(() => {
         console.log("this is Login.tsx!");
-        fetch("https://docker-dashboard-server.onrender.com/api/info/version")
+        /*fetch("https://docker-dashboard-server.onrender.com/api/info/version")
             .then(res => res.json().then(r => {
                 console.log(r);
-            }))
+            }))*/
     }, []);
     const [loading, setLoading] = useState(false);
 

@@ -1,12 +1,16 @@
 import './App.css'
-import {Login} from "./views/login/Login.tsx";
+import {RouterProvider} from "react-router";
+import router from "./router/router.tsx";
+
 
 function App() {
 
 
     return (
         <>
-            <Login/>
+            <div style={{fontFamily: "Helvetica, Arial, sans-serif"}}
+            ><RouterProvider router={router}/>
+            </div>
         </>
     )
 }

@@ -1,0 +1,41 @@
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dashboard-header {
+    background: #001529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.dashboard-sider {
+    background: #fff;
+    position: relative;
+}
+
+.sider-trigger {
+    padding: 12px;
+    text-align: right;
+    cursor: pointer;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.dashboard-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
