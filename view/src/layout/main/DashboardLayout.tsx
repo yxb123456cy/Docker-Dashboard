@@ -16,11 +16,11 @@ const {Header, Sider, Content, Footer} = Layout;
 
 const items = [
     {label: '首页', key: '/', icon: <HomeOutlined/>},
-    {label: '容器管理', key: '/Dashboard/containers', icon: <ContainerOutlined/>},
-    {label: '镜像管理', key: '/Dashboard/images', icon: <AppstoreOutlined/>},
-    {label: '存储卷管理', key: '/Dashboard/volumes', icon: <DatabaseOutlined/>},
-    {label: '网络管理', key: '/Dashboard/networks', icon: <ClusterOutlined/>},
-    {label: '系统设置', key: '/Dashboard/settings', icon: <SettingOutlined/>},
+    {label: '容器管理', key: '/containers', icon: <ContainerOutlined/>},
+    {label: '镜像管理', key: '/images', icon: <AppstoreOutlined/>},
+    {label: '存储卷管理', key: '/volumes', icon: <DatabaseOutlined/>},
+    {label: '网络管理', key: '/networks', icon: <ClusterOutlined/>},
+    {label: '系统设置', key: '/settings', icon: <SettingOutlined/>},
 ];
 export const DashboardLayout = () => {
     useEffect(() => {
