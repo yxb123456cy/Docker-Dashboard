@@ -13,7 +13,7 @@ import {System} from "../views/system/System.tsx";
 const router = createBrowserRouter(
     [
     {
-        path: "/Dashboard", element: <DashboardLayout/>,
+        path: "/", element: <DashboardLayout/>,
         children: [
             { index: true, element: <Home/>},
             { path:"containers" ,element: <Container/>},

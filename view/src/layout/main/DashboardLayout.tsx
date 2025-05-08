@@ -15,7 +15,7 @@ import './css/DashboardLayout.css'
 const {Header, Sider, Content, Footer} = Layout;
 
 const items = [
-    {label: '首页', key: '/Dashboard', icon: <HomeOutlined/>},
+    {label: '首页', key: '/', icon: <HomeOutlined/>},
     {label: '容器管理', key: '/Dashboard/containers', icon: <ContainerOutlined/>},
     {label: '镜像管理', key: '/Dashboard/images', icon: <AppstoreOutlined/>},
     {label: '存储卷管理', key: '/Dashboard/volumes', icon: <DatabaseOutlined/>},
