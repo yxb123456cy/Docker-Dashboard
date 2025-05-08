@@ -10,7 +10,8 @@ import {Network} from "../views/network/Network.tsx";
 import {System} from "../views/system/System.tsx";
 
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+    [
     {
         path: "/Dashboard", element: <DashboardLayout/>,
         children: [
