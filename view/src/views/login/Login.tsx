@@ -45,7 +45,7 @@ export const Login = () => {
                     >
                         <Input.Password prefix={<LockOutlined/>} placeholder="请输入密码"/>
                     </Form.Item>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 12 }}>
+                    <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: 12}}>
                         <Form.Item name="remember" valuePropName="checked" noStyle>
                             <Checkbox>保持登录</Checkbox>
                         </Form.Item>
